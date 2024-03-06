@@ -2,7 +2,7 @@ program JSONRepetidoss;
 
 uses
   Vcl.Forms,
-  JsonRepetido in 'Frm\JsonRepetido.pas' {frm_Principal};
+  JsonRepetido in 'C:\Users\kaioV\OneDrive\Documentos\Embarcadero\Studio\Projects\MostraJsonRepetido\JsonRepetido.pas' {frm_Principal};
 
 {$R *.res}
 

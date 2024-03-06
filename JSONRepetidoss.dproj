@@ -98,7 +98,7 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="C:\Users\kaioV\OneDrive\Documentos\Embarcadero\Studio\Projects\MostraJsonRepetido\JsonRepetido.pas">
+        <DCCReference Include="Frm\JsonRepetido.pas">
             <Form>frm_Principal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
@@ -125,6 +125,12 @@
             </Delphi.Personality>
             <Deployment Version="4">
                 <DeployFile LocalName="Win32\Debug\JSONRepetidoss.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>JSONRepetidoss.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Win32\Release\JSONRepetidoss.exe" Configuration="Release" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>JSONRepetidoss.exe</RemoteName>
                         <Overwrite>true</Overwrite>
